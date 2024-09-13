@@ -256,7 +256,7 @@ h2 + .header-anchor {
 
 @media (max-width: 720px) {
 	.home-layout {
-		align-items: start;
+		flex-wrap: wrap;
 	}
 
 	.home-layout h1 {
@@ -264,9 +264,13 @@ h2 + .header-anchor {
 		margin: 0;
 	}
 
+	.home-image {
+		width: 100%;
+	}
+
 	.home-image img {
-		max-width: 120px;
-		margin: 0.5em 2em;
+		max-width: 100%;
+		margin: 0.5em auto;
 		border: 0.15em solid #fff;
 		border-radius: 1em;
 	}

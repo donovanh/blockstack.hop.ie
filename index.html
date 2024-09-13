@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Reps App - BlockStack</title>
+		<title>BlockStack - BlockStack</title>
 		<meta name="description" content="Play BlockStack now on Vision Pro!">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="BlockStack">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="BlockStack">
@@ -256,7 +256,7 @@ h2 + .header-anchor {
 
 @media (max-width: 720px) {
 	.home-layout {
-		align-items: start;
+		flex-wrap: wrap;
 	}
 
 	.home-layout h1 {
@@ -264,9 +264,13 @@ h2 + .header-anchor {
 		margin: 0;
 	}
 
+	.home-image {
+		width: 100%;
+	}
+
 	.home-image img {
-		max-width: 120px;
-		margin: 0.5em 2em;
+		max-width: 100%;
+		margin: 0.5em auto;
 		border: 0.15em solid #fff;
 		border-radius: 1em;
 	}
