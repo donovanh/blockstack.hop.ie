@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
+	<title>BlockStack</title>
+	<subtitle>Play BlockStack now on Vision Pro!</subtitle>
+	<link href="https://blockstack.hop.ie/feed/feed.xml" rel="self"/>
+	<link href="https://blockstack.hop.ie/"/>
+	<updated>2024-09-13T15:34:48Z</updated>
+	<id>https://blockstack.hop.ie/</id>
+	<author>
+		<name>Donovan Hutchinson</name>
+		<email>blockstack@hop.ie</email>
+	</author>
+</feed>
