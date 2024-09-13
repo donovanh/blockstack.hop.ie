@@ -1,0 +1,37 @@
+---
+title: Reps App
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Home
+  order: 1
+---
+
+<div class="home-layout">
+    <div class="home-image">
+        {% if metadata.appLink %}
+        <a href="{{metadata.appLink}}">
+            {% image "../public/img/game-shots/gold.jpg", "BlockStack app" %}
+        </a>
+        {% else %}
+        {% image "../public/img/game-shots/gold.jpg", "BlockStack app" %}
+        {% endif %}
+    </div>
+
+    <div class="home-content">
+        <h1>BlockStack</h1>
+
+        <p>A game of stacking - grab and stack blocks until they fall over!</p>
+
+        <p>Fun as a challenge, or a mindful exercise to distract your thoughts when working on tasks.</p>
+
+        <p>Available soon on Vision Pro.</p>
+
+        {% if metadata.appLink %}
+            <a href="{{metadata.appLink}}"><img src="/img/download.svg" alt="Download BlockStack on the app store"/></a>
+        {% else %}
+            <div class="testflight-callout">
+                <p><a href="https://testflight.apple.com/join/1e8wHwE9">Try it today for free on TestFlight</a></p>
+            </div>
+        {% endif %}
+    </div>
+</div>
