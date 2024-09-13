@@ -266,12 +266,11 @@ h2 + .header-anchor {
 }
 
 footer {
-	background: var(--color-highlight);
-	color: #000;
+	color: var(--color-gray-50);
 	display: flex;
 	justify-content: center;
 	padding: 4em;
-	margin-top: 4em;
+	margin-top: 2em;
 }
 
 .footer-content {
