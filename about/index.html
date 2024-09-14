@@ -237,7 +237,7 @@ h2 + .header-anchor {
 /* Home page */
 .home-layout {
 	display: flex;
-	align-items: center;
+	align-items: start;
 	margin: 1rem auto;
 }
 
@@ -248,10 +248,14 @@ h2 + .header-anchor {
 
 .home-image img {
 	max-width: 295px;
-	margin: 2em 5em;
+	margin: 2em 5em 0;
 	border: 0.25em solid #555;
 	border-radius: 2em;
 	overflow: hidden;
+}
+
+.home-content {
+	padding: 2em;
 }
 
 @media (max-width: 720px) {
@@ -308,7 +312,8 @@ footer {
 		<main id="skip">
 			<div class="post-content">
 <h1>About BlockStack</h1>
-<p>My first Vision Pro app! This is a fun little game to play in 3D. I hope you enjoy it!</p>
+<p>This is BlockStack, a block stacking game where you try to build the tallest tower by removing blocks and placing them on top.</p>
+<p>If you have questions or feedback, you can reach out to me by <a href="mailto:blockstack@hop.ie">email</a> or <a href="https://mastodon.ie/@donovanh">on Mastodon</a>.
 <p>Read more about the development on Vision Pro at my dev blog, <a href="https://vision.rodeo">vision.rodeo</a>.
 <p>- Donovan</p>
 </div>

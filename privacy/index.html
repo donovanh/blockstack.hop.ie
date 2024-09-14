@@ -237,7 +237,7 @@ h2 + .header-anchor {
 /* Home page */
 .home-layout {
 	display: flex;
-	align-items: center;
+	align-items: start;
 	margin: 1rem auto;
 }
 
@@ -248,10 +248,14 @@ h2 + .header-anchor {
 
 .home-image img {
 	max-width: 295px;
-	margin: 2em 5em;
+	margin: 2em 5em 0;
 	border: 0.25em solid #555;
 	border-radius: 2em;
 	overflow: hidden;
+}
+
+.home-content {
+	padding: 2em;
 }
 
 @media (max-width: 720px) {
