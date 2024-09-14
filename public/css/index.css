@@ -250,6 +250,11 @@ h2 + .header-anchor {
 @media (max-width: 720px) {
 	.home-layout {
 		flex-wrap: wrap;
+		flex-direction: column-reverse;
+	}
+
+	.home-content {
+		padding: 0 0 1em;
 	}
 
 	.home-layout h1 {
