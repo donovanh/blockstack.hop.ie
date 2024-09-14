@@ -10,10 +10,12 @@ eleventyNavigation:
     <div class="home-image">
         {% if metadata.appLink %}
         <a href="{{metadata.appLink}}">
-            {% image "../public/img/game-shots/gold.jpg", "BlockStack app" %}
+            {% image "../public/img/promo-poster.jpg", "BlockStack app" %}
         </a>
         {% else %}
-        {% image "../public/img/game-shots/gold.jpg", "BlockStack app" %}
+        {% image "../public/img/game-shots/in-game.jpg", "Play on the beach!" %}
+        {% image "../public/img/promo-poster.jpg", "Styles to match your environment" %}
+        {% image "../public/img/game-shots/theme.jpg", "Choose a theme!" %}
         {% endif %}
     </div>
 
