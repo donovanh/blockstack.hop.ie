@@ -1,6 +1,6 @@
 module.exports = {
 	title: "BlockStack",
-	appLink: undefined,
+	appLink: "https://apps.apple.com/app/blockstack/id6670283686",
 	url: "https://blockstack.hop.ie/",
 	language: "en",
 	description: "Play BlockStack now on Vision Pro!",
